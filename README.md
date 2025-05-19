@@ -58,7 +58,7 @@ CLV = \left( \frac{\text{Total Transactions}}{\text{Tenure}} \right) \times 12 \
 Finally, I ordered the customers by their estimated CLV in descending order to highlight the most valuable users.
 
 **Challenges Faced:**  
-Ensuring data quality for tenure calculations was key—some users had minimal transaction activity or very recent signup dates. I also had to make sure that division operations didn’t fail by guarding with `NULLIF` to prevent divide-by-zero errors.
+Ensuring data quality for tenure calculations was key. Some users had minimal transaction activity or very recent signup dates. I also had to make sure that division operations didn’t fail by guarding with `NULLIF` to prevent divide-by-zero errors.
 
 ---
 
